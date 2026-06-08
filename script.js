@@ -124,7 +124,7 @@ function handleAnswerClick(event) {
                 setTimeout(() => {
                     bodyElement.classList.add("page-exit");
                     setTimeout(() => {
-                        window.location.href = "confessão.html";
+                        window.location.href = "confissão.html";
                     }, pageTransitionDuration);
                 }, 3000);
             }, 2000);
