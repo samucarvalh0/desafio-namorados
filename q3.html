@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Pergunta 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="question-page">
+        <div class="quiz-container">
+            <span class="question-number">❤️ Pergunta 3 de 10</span>
+            <div class="progress">
+                <div class="progress-fill" style="width:30%"></div>
+            </div>
+            <h1>Sobre nossas memórias registradas.</h1>
+            <p class="intro">Qual será o primeiro registro do nosso encontro?</p>
+            <h2 class="question">Qual foi nossa primeira foto juntos? 📸</h2>
+            <div class="answers">
+                <button class="answer-card has-image" data-correct="false" data-message="Acho que não foi essa não, tente se lembrar...">
+                    <img src="images/q3-a.jpg" alt="Opção A">
+                    <span>Resposta A</span>
+                </button>
+                <button class="answer-card has-image" data-correct="true">
+                    <img src="images/q3-b.jpg" alt="Opção B">
+                    <span>Resposta B</span>
+                </button>
+                <button class="answer-card has-image" data-correct="false" data-message="Não me lembro de ter sido essa">
+                    <img src="images/q3-c.jpg" alt="Opção C">
+                    <span>Resposta C</span>
+                </button>
+                <button class="answer-card has-image" data-correct="false" data-message="Talvez tenha sido, não tenho certeza">
+                    <img src="images/q3-d.jpg" alt="Opção D">
+                    <span>Resposta D</span>
+                </button>
+            </div>
+            <div class="feedback-message"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
