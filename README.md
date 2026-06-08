@@ -48,28 +48,6 @@ Perfeito para:
 
 ---
 
-## 📸 Preview
-
-<div align="center">
-
-### Tela Inicial
-
-<img src="./assets/preview/home.png" width="700">
-
-### Quiz
-
-<img src="./assets/preview/quiz.png" width="700">
-
-### Resultado
-
-<img src="./assets/preview/result.png" width="700">
-
-</div>
-
-> Substitua as imagens acima pelos screenshots reais do projeto.
-
----
-
 ## 🚀 Tecnologias Utilizadas
 
 | Tecnologia | Descrição |
@@ -77,67 +55,6 @@ Perfeito para:
 | HTML5 | Estrutura da aplicação |
 | CSS3 | Estilização e responsividade |
 | JavaScript | Lógica do quiz e interações |
-
----
-
-## 📂 Estrutura do Projeto
-
-```bash
-desafio-namorados/
-│
-├── assets/
-│   ├── images/
-│   └── preview/
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── index.html
-└── README.md
-```
-
----
-
-## 💻 Como Executar
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/desafio-namorados.git
-```
-
-Entre na pasta:
-
-```bash
-cd desafio-namorados
-```
-
-Abra o arquivo:
-
-```bash
-index.html
-```
-
-Ou utilize a extensão **Live Server** do VS Code.
-
----
-
-## 🌐 Demonstração
-
-Quando publicar o projeto, adicione o link aqui:
-
-```text
-https://seu-site.vercel.app
-```
-
-ou
-
-```text
-https://seu-usuario.github.io/desafio-namorados
-```
 
 ---
 
@@ -150,41 +67,6 @@ Este projeto foi desenvolvido para praticar conceitos de:
 - Eventos em JavaScript
 - Responsividade
 - Experiência do usuário (UX)
-
----
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas!
-
-Se tiver sugestões de melhorias:
-
-1. Faça um Fork do projeto
-2. Crie uma Branch
-
-```bash
-git checkout -b feature/minha-feature
-```
-
-3. Commit suas alterações
-
-```bash
-git commit -m "feat: minha nova funcionalidade"
-```
-
-4. Envie para o GitHub
-
-```bash
-git push origin feature/minha-feature
-```
-
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
 
 ---
 
