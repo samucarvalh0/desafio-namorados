@@ -34,7 +34,7 @@ section{
 
 .hero{
     height:100vh;
-    /* background:url(" ") center center/cover; */
+    background:url("./img/img1.jpg") center center/cover;
     position:relative;
     display:flex;
     align-items:center;
@@ -75,6 +75,13 @@ section{
     color:white;
     font-weight:600;
     transition:.3s;
+    margin-top: 10%;
+}
+
+.invert{
+    background: #fff8f3;
+    color: #005a03;
+    margin-top: 2%;
 }
 
 .btn:hover{
@@ -83,6 +90,7 @@ section{
 
 .memories{
     text-align:center;
+    height: 100vh;
 }
 
 .memories h2{
@@ -115,6 +123,7 @@ section{
     text-align:center;
     max-width:900px;
     margin:auto;
+    margin-top: 2%;
 }
 
 .about h2{
@@ -132,24 +141,6 @@ section{
     line-height:1.8;
 }
 
-.timeline{
-    text-align:center;
-}
-
-.timeline h2{
-    margin-bottom:60px;
-    font-size:3rem;
-}
-
-.timeline-item{
-    width:fit-content;
-    margin:20px auto;
-    padding:18px 35px;
-    border-radius:50px;
-    background:white;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-}
-
 .quote{
     background:#005a03;
     color:white;
@@ -164,7 +155,26 @@ section{
 }
 
 .cta{
+    position:relative;
+    height:100vh;
+    background:url("./img/img3.jpg") center center/cover;
     text-align:center;
+    text-align:center;
+    margin-top: 10%;
+    color: white;
+}
+
+.cta::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    pointer-events: none;
+}
+
+.cta > *{
+    position: relative;
+    z-index: 1;
 }
 
 .countdown{
@@ -260,11 +270,13 @@ section{
     max-width:900px;
     margin:auto;
     margin-bottom:40px;
+    margin-top: 15%;
 }
 
 .large{
     font-size:1.2rem;
     padding:20px 60px;
+    margin-top: 5%;
 }
 
 .question-page{
